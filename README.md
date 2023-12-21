@@ -1,7 +1,7 @@
 # s21_matrix  
 
-> При старте работы над проектом просим вас постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом просим вас ответить на два вопроса [в этом опросе](https://forms.gle/vpUwLY2KyV1B1B3o9)
+> При старте работы над проектом просим тебя постараться хронометрировать время работы над проектом.
+> По завершении работы над проектом, пожалуйста, ответь на два вопроса [в этом опросе](https://forms.gle/vpUwLY2KyV1B1B3o9)
 
 
 Implementation of the matrix.h library.   
@@ -23,7 +23,7 @@ The russian version of the task can be found in the repository.
 
 ![matrix](misc/eng/images/matrixx.png)
 
-Planet Earth, USA, Texas, Dallas County, 1703 Matthew Street, September 13, 2000.  
+Planet Earth, September 13, 2000.  
 
 *-- Our CEO has such a wonderful country house! There is everything to make ideas come true. A veranda facing a huge swimming pool on the lawn complete the image of a keen and intelligent person.*
 
@@ -368,7 +368,7 @@ Implement basic operations with matrices (partially described [above](#matrix-op
 - The library code must be located in the src folder on the develop branch   
 - Do not use outdated and legacy language constructions and library functions. Pay attention to the legacy and obsolete marks in the official documentation on the language and the libraries used. Use the POSIX.1-2017 standard.
 - When writing code it is necessary to follow the Google style
-- Make it as a static library (with the s21_matrix.h header file)
+- Make it as a static library named *s21_matrix.a* (with the s21_matrix.h header file)
 - The library must be developed according to the principles of structured programming;
 - Use prefix s21_ before each function
 - Prepare full coverage of library functions code with unit-tests using the Check library
