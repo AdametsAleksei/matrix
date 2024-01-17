@@ -25,21 +25,21 @@ The russian version of the task can be found in the repository.
 
 Planet Earth, September 13, 2000.  
 
-*-- Our CEO has such a wonderful country house! There is everything to make ideas come true. A veranda facing a huge swimming pool on the lawn complete the image of a keen and intelligent person.*
+*-- Our CEO has such a wonderful country house! It has everything you need to realise your ideas. A veranda overlooking a huge swimming pool on the lawn completes the picture of a keen and intelligent person.*
 
 *- Yes, I agree, so glad we were invited here, this place is very energetic!*  
 
-*-- Absolutely! So, for a few days now, the main id Software tech team has been discussing the new technology we would like to introduce in our upcoming game Doom 3. What creates the most sense of reality in a picture? Of course it's a game of light and shadows, which now takes too long to compute, putting a lot of strain on the CPU. John is known for his technological and algorithmic ideas and tricks, which made it possible to achieve crazy breakthroughs in speed and code optimisation.* \
-*What was I talking about… Our chief technician and founder John Carmack presented a theoretical development that would allow you to cast shadows on a scene after going through the entire graphics pipeline, using a depth and a stencil buffer.* 
+*-- Absolutely! So, for a few days now, the main id Software technical team have been discussing the new technology we want to introduce in our upcoming game Doom 3. What creates the most sense of reality in an image? Obviously it's a game of light and shadows, which now takes too long to calculate and puts a lot of pressure on the CPU. John is known for his technological and algorithmic ideas and tricks that have led to crazy breakthroughs in speed and code optimisation.* \
+*What was I talking about... Our chief engineer and founder John Carmack presented a theoretical development that would allow you to cast shadows on a scene after it had gone through the entire graphics pipeline, using a depth and stencil buffer.* 
 
-*- Oh wow, it gives me goosebumps, tell us more!*
+*- Oh wow, it gives me goosebumps, tell me more!*
 
-*-- We didn't invite you to this party by chance, the whole team is working on a new method of building shadows on a scene, and John assigned your department specifically to implement a very fast and optimised library of all sorts of matrix transformations, which will underpin all the mathematical logic of the algorithm. Vectors and matrices, transpose and SRT conversions, and many other mathematical objects and operations that are used in computer graphics.* \
-*For a correct and considered transition to the new method, we need a significant and impressive performance changes, and you will be in charge of them!*
+*-- We didn't invite you to this party by chance, the whole team is working on a new way of creating shadows in a scene, and John has specifically tasked your department with implementing a very fast and optimised library of all sorts of matrix transformations that will underpin all the mathematical logic of the algorithm: vectors and matrices, transpose and SRT conversions, and many other mathematical objects and operations that are used in computer graphics.* \
+*FFor a proper and considered transition to the new method, we need a significant and impressive performance change, and you will be in charge of that!*
 
-*- My team and I are very happy to help you, and ready to get to work as early as tomorrow!*
+*- My team and I are more than happy to help you, and are ready to get to work tomorrow!*
 
-*-- Perfect! Who knows, maybe one day it will be enough just to cast the rays to build light and shadows … but for now we are limited by the technology of our time and need to roll with the punches, so let’s do it! And yes, don't you dare miss deadlines, he doesn't like that.*
+*-- Perfect! Who knows, maybe one day it will be enough just to cast the rays to create light and shadow... but for now, we're limited by the technology of our time and have to roll with the punches, so let's do it! And yes, don't you dare miss deadlines, he doesn't like that.*
 
 ## Introduction
 
@@ -364,19 +364,19 @@ A^(-1) =  1/|A| * M^T. = -38  41 -34
 
 Implement basic operations with matrices (partially described [above](#matrix-operations)): create_matrix (creation), remove_matrix (cleaning and destruction), eq_matrix (comparison), sum_matrix (addition), sub_matrix (subtraction), mult_matrix (multiplication), mult_number (multiplication by number), transpose (transpose), determinant (calculation of determinant), calc_complements (calculation of matrix of algebraic complements), inverse_matrix (finding inverse of the matrix).
 
-- The library must be developed in C language of C11 standard using gcc compiler
-- The library code must be located in the src folder on the develop branch   
-- Do not use outdated and legacy language constructions and library functions. Pay attention to the legacy and obsolete marks in the official documentation on the language and the libraries used. Use the POSIX.1-2017 standard.
-- When writing code it is necessary to follow the Google style
-- Make it as a static library named *s21_matrix.a* (with the s21_matrix.h header file)
+- The library must be developed in C language of C11 standard using gcc compiler;
+- The library code must be located in the src folder on the develop branch;   
+- Do not use outdated and legacy language constructions and library functions. Pay attention to the legacy and obsolete marks in the official documentation on the language and the libraries used. Use the POSIX.1-2017 standard;
+- When writing code it is necessary to follow the Google style;
+- Make it as a static library named *s21_matrix.a* (with the s21_matrix.h header file);
 - The library must be developed according to the principles of structured programming;
-- Use prefix s21_ before each function
-- Prepare full coverage of library functions code with unit-tests using the Check library
-- Unit tests must cover at least 80% of each function (checked using gcov)  
-- Provide a Makefile for building the library and tests (with targets all, clean, test, s21_matrix.a, gcov_report)
-- The gcov_report target should generate a gcov report in the form of an html page. Unit tests must be run with gcov flags to do this 
-- The matrix must be implemented as the structure described [above](#matrix-structure-in-c-language)
-- Verifiable accuracy of the fractional part is up to 6 decimal places
+- Use prefix s21_ before each function;
+- Prepare full coverage of library functions code with unit-tests using the Check library;
+- Unit tests must cover at least 80% of each function (checked using gcov);  
+- Provide a Makefile for building the library and tests (with targets all, clean, test, s21_matrix.a, gcov_report);
+- The gcov_report target should generate a gcov report in the form of an html page. Unit tests must be run with gcov flags to do this; 
+- The matrix must be implemented as the structure described [above](#matrix-structure-in-c-language);
+- Verifiable accuracy of the fractional part is up to 6 decimal places.
 
 
 💡 [Tap here](https://forms.yandex.ru/cloud/6418147073cee70b89478999/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
