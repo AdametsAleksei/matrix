@@ -1,13 +1,10 @@
 # s21_matrix  
 
-> При старте работы над проектом просим тебя постараться хронометрировать время работы над проектом.
-> По завершении работы над проектом, пожалуйста, ответь на два вопроса [в этом опросе](https://forms.gle/vpUwLY2KyV1B1B3o9)
-
-
 Implementation of the matrix.h library.   
 
 The russian version of the task can be found in the repository.
 
+💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
 
 ## Contents  
 
@@ -378,5 +375,3 @@ Implement basic operations with matrices (partially described [above](#matrix-op
 - The matrix must be implemented as the structure described [above](#matrix-structure-in-c-language);
 - Verifiable accuracy of the fractional part is up to 6 decimal places.
 
-
-💡 [Tap here](https://forms.yandex.ru/cloud/6418147073cee70b89478999/) **to leave your feedback on the project**. Product Team really tries to make your educational experience better.
